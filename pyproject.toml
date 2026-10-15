@@ -1,0 +1,66 @@
+[build-system]
+# SPDX license expressions and license-files require PEP 639 support.
+requires = ["setuptools>=77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collective-model-intelligence"
+version = "0.1.0.dev0"
+description = "Research code for Toward Collective Model Intelligence: Characterizing and Coordinating Models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+license-files = ["LICENSE", "methods/orbit/LICENSE"]
+authors = [{ name = "SinapisAI" }]
+keywords = [
+    "collective-model-intelligence",
+    "model-capabilities",
+    "model-collaboration",
+]
+dependencies = [
+    "numpy>=1.26",
+]
+
+[project.scripts]
+cmi-data = "benchmark.data.huggingface:main"
+
+[project.optional-dependencies]
+orbit = ["joblib>=1.3", "scikit-learn>=1.4", "torch>=2.2"]
+data = [
+    "datasets>=3.0",
+    "huggingface-hub>=0.28",
+    "pandas>=2.0",
+    "pyarrow>=14.0",
+]
+# Recorded baseline fit/replay environment: Python 3.12.2, CUDA 12.1.
+report = [
+    "numpy==1.26.4",
+    "torch==2.2.1",
+    "scipy==1.12.0",
+    "scikit-learn==1.9.1",
+    "joblib==1.6.0",
+    "pyarrow==21.0.0",
+    "pandas==2.2.1",
+    "datasets==3.6.0",
+    "huggingface-hub==0.35.3",
+    "PyYAML==6.0.1",
+    "requests==2.34.2",
+]
+
+[project.urls]
+Homepage = "https://sinapis.ai"
+Report = "https://github.com/SinapisAI/collective-model-intelligence/blob/main/tech-report.pdf"
+Dataset = "https://huggingface.co/datasets/SinapisAI/RobustRouteBench"
+Documentation = "https://github.com/SinapisAI/collective-model-intelligence#readme"
+Repository = "https://github.com/SinapisAI/collective-model-intelligence"
+Issues = "https://github.com/SinapisAI/collective-model-intelligence/issues"
+
+[tool.setuptools.packages.find]
+include = ["benchmark*", "evaluation*", "methods*", "examples*"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

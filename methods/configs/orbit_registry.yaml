@@ -1,0 +1,20 @@
+source: https://github.com/LAMDA-Model-Reuse/ORBIT
+commit: 494810de2605f69737e72b55baf6e60c95c6dec0
+license: MIT
+deployable_count: 12
+excluded:
+  oracle: Requires held-out outcomes and is evaluator-only.
+
+methods:
+  avengers: {level: embedding_compatible, family: clustering, display_name: Avengers, report_role: canonical_baseline}
+  avengerspro: {level: native, family: clustering, display_name: Avengers-Pro, report_role: canonical_baseline}
+  causal_rm_softmax: {level: native, family: regret_minimization, display_name: Causal RM-Softmax, report_role: canonical_baseline}
+  eagle: {level: embedding_compatible, family: global_local_ranking, display_name: Eagle, report_role: canonical_baseline}
+  embedllm_routejudge: {level: native, family: model_embedding, display_name: EmbedLLM-RouteJudge, report_role: canonical_baseline}
+  graphrouter: {level: native, family: graph_edge_prediction, display_name: GraphRouter, report_role: canonical_baseline}
+  hybridllm: {level: embedding_compatible, family: difficulty_regression, display_name: HybridLLM, report_role: canonical_baseline}
+  knn: {level: native, family: retrieval, display_name: kNN, report_role: canonical_baseline}
+  mlp: {level: native, family: learned_scoring, display_name: MLP, report_role: canonical_baseline}
+  mirt: {level: native, family: item_response_theory, display_name: MIRT, report_role: canonical_baseline}
+  routellm_mf: {level: embedding_compatible, family: matrix_factorization, display_name: RouteLLM-MF, report_role: canonical_baseline}
+  svm_router: {level: embedding_compatible, family: linear_margin, display_name: SVM Router, report_role: canonical_baseline}

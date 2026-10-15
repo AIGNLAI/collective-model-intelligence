@@ -1,0 +1,54 @@
+# Python bytecode and build output
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments and development caches
+.venv/
+.venv-*/
+venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.ipynb_checkpoints/
+.cache/
+cache/
+
+# Optional local uv lockfile; dependency declarations live in pyproject.toml
+/uv.lock
+
+# Local credentials; an intentional example file can be committed
+.env
+.env.*
+!.env.example
+
+# Downloaded resources and local experiment output
+/benchmark/data/downloads/
+/benchmark/data/raw/
+/checkpoints/
+/runs/
+/outputs/
+/artifacts/
+wandb/
+mlruns/
+*.log
+
+# Editor and operating-system files
+.DS_Store
+._*
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+*.tmp

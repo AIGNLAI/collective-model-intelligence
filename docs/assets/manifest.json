@@ -1,0 +1,86 @@
+{
+  "report_commit": "2fb0244ac7bbaca63464738f87647c2fe73019c6",
+  "renderer": "pdftoppm -singlefile -scale-to 1800 -png",
+  "assets": [
+    {
+      "source": "figures/diagrams/collective-vision.pdf",
+      "source_sha256": "a957c9b11dc4d86bf6e3825d04591e3e922c76ca74299f715dca3bba83fdc518",
+      "output": "collective-vision.png",
+      "output_sha256": "e0829d4cfd159d121a58b78055518306ca49d21a57fd9345bdb18e19f0b7a4ec"
+    },
+    {
+      "source": "main.pdf",
+      "source_sha256": "5cfb05b95659e54dc36c320dcd40072066eb45b7d9d593f606c07ad7b5ef73e5",
+      "output": "system-overview.png",
+      "output_sha256": "fc2e7795c3049f53ddec7f0f33db61a3571de37083baec4101c596f438786c68",
+      "source_page": 5,
+      "source_figure": "figures/diagrams/system-overview.pdf",
+      "source_clip": [
+        70.865997,
+        79.370728,
+        524.404785,
+        441.674011
+      ],
+      "renderer": "PyMuPDF; crop the embedded report figure and render at 1800-pixel target width"
+    },
+    {
+      "source": "figures/results/mio-frontpage-comparisons.pdf",
+      "source_sha256": "b625884a502c2d09264d92544242d9b27822d44c8119dbf4fcc542fac067e04d",
+      "output": "mio-overview.png",
+      "output_sha256": "1b7bf8d587c7826aa2f4fc7b26664b4581fc92d9d10bbe960036b7a3512d912a"
+    },
+    {
+      "source": "figures/results/mio-public-performance.pdf",
+      "source_sha256": "1a510c98ce2246cad70dfd44c5bca417535b5cd0788c1dc987b797ec61f56d7f",
+      "output": "mio-public-performance.png",
+      "output_sha256": "aa244204b074c4809d31c05330a960d36d51e2148a5eec5a6911a45c8ba81445"
+    },
+    {
+      "source": "figures/results/stratified_1pct_5pct.pdf",
+      "source_sha256": "36e9fb38dcd760058276dd5a5d156f661c802b1a625fcf7e61053e09d656e9ef",
+      "output": "model-eval.png",
+      "output_sha256": "b662ea930758d711300b23cc2e816654661497b460d50591ed8e7af1a8044211"
+    },
+    {
+      "source": "figures/results/domain-comparison.pdf",
+      "source_sha256": "289ee86110803688f54cff18432c10b06c2d8c3b96da9160866b9727ef15eaf1",
+      "output": "domain-prediction.png",
+      "output_sha256": "714b9c63edea9ed53cff32a3206f1cd1368d5b30f418d6f6a3717c758ec57e5d"
+    },
+    {
+      "source": "figures/results/routestressbench-results.pdf",
+      "source_sha256": "19347ed8ae58b5873528c65ac9483d1b4facd38bfb4800129ddaef558260f093",
+      "output": "robustroutebench.png",
+      "output_sha256": "991ee9ef2eb15279021f0ed638d3b182395528ac1cb619c161d78d8cb3c1dee6"
+    },
+    {
+      "source": "figures/results/fluid-batch-load-time.pdf",
+      "source_sha256": "7bc19d73ce56457df9fc254ab2787a4178616e1cc9e4fc27a55a5a3c4a957ab2",
+      "output": "model-distribution.png",
+      "output_sha256": "89f136cda668778179c5cf95a878e08a5915bec6ebb2c823c6c7844d202d144f"
+    },
+    {
+      "source": "figures/results/fluid-per-instance-load-time.pdf",
+      "source_sha256": "bf8bf43f01551192e645ed66a9a8b5fe1f7ed994013f0cd1e1401ec86855a605",
+      "output": "model-distribution-per-instance.png",
+      "output_sha256": "92a664f9f40508789db8caf69de6f5611df6e16c3b3d4457139727d9066aa2b4"
+    }
+  ],
+  "editorial_assets": [
+    {
+      "output": "readme-banner.svg",
+      "creation_method": "image_gen built-in background edit; original PDF logo paths embedded as SVG",
+      "purpose": "Editorial README header; not an experimental result figure.",
+      "reference_source": "assets/sinapisai-logo.pdf",
+      "output_sha256": "003fcad5b5d39b8f93a74ce06e7abb94992c2263ac139493102376385f869385",
+      "reference_source_sha256": "5d41033ce0b85e31bfb53427cabcbe3d40747474a46b419994c120db2fb1b8bc",
+      "width": 2172,
+      "height": 650,
+      "logo_conversion": "pdftocairo -svg; original path geometry and fills preserved without modification"
+    }
+  ],
+  "report_sha256": "5cfb05b95659e54dc36c320dcd40072066eb45b7d9d593f606c07ad7b5ef73e5",
+  "report_source_mode": "authoring-worktree",
+  "report_source_worktree_dirty": false,
+  "report_captured_at_utc": "2026-10-15T16:51:29.938601+00:00"
+}

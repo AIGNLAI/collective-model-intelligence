@@ -1,0 +1,55 @@
+{
+  "retrieved": "2026-10-14",
+  "lobe_icons_revision": "05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb",
+  "assets": {
+    "deepseek-color.svg": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-svg/icons/deepseek-color.svg",
+      "sha256": "deba5f98a5c1796e20fcac3149bcd7eb8a32f0bdd04d048819400b1f28bd1439"
+    },
+    "openai.svg": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-svg/icons/openai.svg",
+      "sha256": "a595df6b423920c67a7f8f73c063e4bfb72d415948097b6cac063a2366bb5186"
+    },
+    "vllm-color.svg": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-svg/icons/vllm-color.svg",
+      "sha256": "3f837bad8d7f85d19e860a089639289ddd7492e67dc1ac7bd0f129f8f19b8ae6"
+    },
+    "LICENSE-lobe-icons": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/LICENSE",
+      "sha256": "add9d7531d1b21646317a8958e38fc727506fa39d24bdecb44154d943c82753a"
+    },
+    "typesafe.png": {
+      "source": "https://framerusercontent.com/images/aNFzSFxM4fjICmnibw7npfZjcQ.png",
+      "homepage": "https://typesafe.ai/",
+      "sha256": "fcb8f554778c45ff62b97ca05df643588b39c8c66913736b7fe3485cedd96180"
+    },
+    "qwen-color.png": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-png/light/qwen-color.png",
+      "sha256": "de9bc7e285164e0d284a7b9555511c7f7767af7699d6272b3b67b376eeddbfb3"
+    },
+    "zai.svg": {
+      "source": "https://mintcdn.com/zhipu-32152247/B_E8wI-eiNa1QlPV/logo/dark.svg?fit=max&auto=format&n=B_E8wI-eiNa1QlPV&q=85&s=75deefa9dea5bdbc84d4da68885c267f",
+      "homepage": "https://docs.z.ai/guides/overview/quick-start",
+      "retrieved": "2026-10-15",
+      "source_sha256": "8007cd9e09717e42283db3591f82ed970a3200a0892ae91e1af9f2ef12e85642",
+      "sha256": "5ab4ea54aeb279edb3a1a44a710b46c7fff174aa82cdc31b3bdc30f9f14576cc",
+      "modifications": "Removed black rounded-square tile; retained all three Z paths unchanged; changed white fill to black and cropped the viewport to a square around the mark."
+    },
+    "kimi.svg": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-svg/icons/kimi.svg",
+      "sha256": "ed08131b46acf70e6e2144eceb775e74098b58ea65fa21eaee04be7b05cfe63b"
+    },
+    "openrouter.svg": {
+      "source": "https://raw.githubusercontent.com/lobehub/lobe-icons/05a9b8c41e4735a4a2b6d2f1e43574bd8ec6c8cb/packages/static-svg/icons/openrouter.svg",
+      "sha256": "ae671cc83de9bd45db97a47ed5e38a4e1bd9f93a12be495ba4b4f8b284026bca"
+    },
+    "anthropic.svg": {
+      "source": "https://www.anthropic.com/images/icons/safari-pinned-tab.svg",
+      "homepage": "https://www.anthropic.com/claude-opus-5-5",
+      "report_reference": "https://www.anthropic.com/claude-opus-5-5-system-card",
+      "retrieved": "2026-10-15",
+      "sha256": "2d7c1e11931030042efdf8bc8594e20f3765c6c4e7c7d48a1181a79c43173999",
+      "modifications": "None; official SVG stored unchanged."
+    }
+  }
+}

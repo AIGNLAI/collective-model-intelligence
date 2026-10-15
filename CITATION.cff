@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+type: software
+title: "Collective Model Intelligence"
+message: >-
+  Please cite the companion SinapisAI technical report, record the code commit
+  and dataset revision used, and cite the original methods and datasets separately.
+authors:
+  - name: SinapisAI Team
+repository-code: https://github.com/SinapisAI/collective-model-intelligence
+url: https://sinapis.ai
+abstract: >-
+  Report PDF, benchmark loaders, and research code accompanying Toward Collective Model
+  Intelligence: Characterizing and Coordinating Models. Includes RobustRouteBench
+  loading, ORBIT-compatible routing adapters, offline quality-cost evaluation,
+  and experimental results.
+keywords:
+  - collective model intelligence
+  - model capabilities
+  - model collaboration
+  - RobustRouteBench
+license: Apache-2.0
+preferred-citation:
+  type: report
+  title: 'Toward Collective Model Intelligence: Characterizing and Coordinating Models'
+  authors:
+    - name: SinapisAI Team
+  institution:
+    name: SinapisAI
+  year: 2026
+  month: 10
+  url: https://github.com/SinapisAI/collective-model-intelligence
