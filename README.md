@@ -8,9 +8,11 @@
 
 ## Mio 1.0 Lite
 
-Across nine public benchmarks, Mio achieves **77.15/100** mean score at **0.0621 CNY/request**: the highest mean score and lowest mean cost among 13 compared methods. Benchmarks are weighted equally; these are the report's [offline evaluation results](docs/experimental-results.md#mio-10-lite-public-benchmarks).
+**Mio (Models in One)** organizes complementary models to work together, choosing which model to call as task needs and remaining budgets change. **Mio 1.0 Lite** applies this approach to cost-efficient models from China.
 
-![The report's first-page performance chart: nine-benchmark mean score and cost, with three selected task comparisons.](docs/assets/mio-overview.png)
+Across nine equally weighted public benchmarks, Mio 1.0 Lite achieves an average score of **77.15/100** at **0.0621 CNY/request**, the highest average score and lowest average cost among 13 compared methods. Compared with the strongest baseline by average score, Mio scores **6.35 points higher** at **94.0% lower average cost**. [Full benchmark results →](docs/experimental-results.md#mio-10-lite-public-benchmarks)
+
+![Mio 1.0 Lite: collaboration among cost-efficient models from China. Average score and cost across nine public benchmarks, with three selected task comparisons.](docs/assets/mio-overview.png)
 
 ## From individual models to collective intelligence
 

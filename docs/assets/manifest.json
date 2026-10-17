@@ -1,5 +1,4 @@
 {
-  "report_commit": "2fb0244ac7bbaca63464738f87647c2fe73019c6",
   "renderer": "pdftoppm -singlefile -scale-to 1800 -png",
   "assets": [
     {
@@ -24,16 +23,36 @@
       "renderer": "PyMuPDF; crop the embedded report figure and render at 1800-pixel target width"
     },
     {
-      "source": "figures/results/mio-frontpage-comparisons.pdf",
-      "source_sha256": "b625884a502c2d09264d92544242d9b27822d44c8119dbf4fcc542fac067e04d",
+      "source": "tech-report.pdf",
+      "source_sha256": "bae1aa28714b49c897d8603fa6694d0f8d31d79b6995f5cd1d477326085d03b7",
       "output": "mio-overview.png",
-      "output_sha256": "1b7bf8d587c7826aa2f4fc7b26664b4581fc92d9d10bbe960036b7a3512d912a"
+      "output_sha256": "1d6df451ed9de02fa4aa8c69d1ab6236d0f11d35c024cd9346669294a7e2fd51",
+      "source_page": 1,
+      "source_figure": "figures/results/mio-frontpage-comparisons.pdf",
+      "source_clip": [
+        68,
+        397,
+        528,
+        776
+      ],
+      "renderer": "pdftoppm; crop the report page in PDF points and render at 288 DPI (4 pixels per point)",
+      "purpose": "Full opening overview, including the Mio 1.0 Lite heading, collaboration tagline, and result summary."
     },
     {
-      "source": "figures/results/mio-public-performance.pdf",
-      "source_sha256": "1a510c98ce2246cad70dfd44c5bca417535b5cd0788c1dc987b797ec61f56d7f",
+      "source": "tech-report.pdf",
+      "source_sha256": "bae1aa28714b49c897d8603fa6694d0f8d31d79b6995f5cd1d477326085d03b7",
       "output": "mio-public-performance.png",
-      "output_sha256": "aa244204b074c4809d31c05330a960d36d51e2148a5eec5a6911a45c8ba81445"
+      "output_sha256": "498f67821198c905eab9a3b7d4fd80b4e5696d574c588f5daf76a219e0e081e3",
+      "source_page": 26,
+      "source_figure": "figures/results/mio-public-performance.pdf",
+      "source_clip": [
+        68,
+        78,
+        528,
+        554
+      ],
+      "renderer": "pdftoppm; crop the report page in PDF points and render at 288 DPI (4 pixels per point)",
+      "purpose": "Figure 9, including its legend and caption."
     },
     {
       "source": "figures/results/stratified_1pct_5pct.pdf",
@@ -79,8 +98,9 @@
       "logo_conversion": "pdftocairo -svg; original path geometry and fills preserved without modification"
     }
   ],
-  "report_sha256": "5cfb05b95659e54dc36c320dcd40072066eb45b7d9d593f606c07ad7b5ef73e5",
-  "report_source_mode": "authoring-worktree",
-  "report_source_worktree_dirty": false,
-  "report_captured_at_utc": "2026-10-15T16:51:29.938601+00:00"
+  "report_sha256": "bae1aa28714b49c897d8603fa6694d0f8d31d79b6995f5cd1d477326085d03b7",
+  "report_source_mode": "provided-pdf",
+  "report_captured_at_utc": "2026-10-17T13:10:09.489987+00:00",
+  "original_report_commit": "2fb0244ac7bbaca63464738f87647c2fe73019c6",
+  "report_source": "tech-report.pdf"
 }

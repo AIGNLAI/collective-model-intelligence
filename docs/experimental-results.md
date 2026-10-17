@@ -6,7 +6,7 @@ Results for Sections 6.1–6.4 of the [technical report](../tech-report.pdf).
 
 ## Mio 1.0 Lite: public benchmarks
 
-Report §6.1 compares **Mio 1.0 Lite**, eight fixed models, and four routers on nine benchmarks. The tracker snapshot is dated October 13, 2026, revision **2198**. The public subsets of AutomationBench and AA-OmniScience are used; BFCL is V3 Base Multi-Turn, GPQA is Diamond, and HLE is without tools.
+Report §6.1 compares **Mio 1.0 Lite**, eight fixed models, and four routers on nine public benchmarks. Mio combines task-dependent model selection and collaboration among cost-efficient models from China. The public subsets of AutomationBench and AA-OmniScience are used; BFCL is V3 Base Multi-Turn, GPQA is Diamond, and HLE is without tools.
 
 | Benchmark | Mio score | Mean CNY/request |
 | --- | ---: | ---: |
@@ -22,13 +22,13 @@ Report §6.1 compares **Mio 1.0 Lite**, eight fixed models, and four routers on 
 
 Mio’s dataset-equal mean is **77.15/100** and **0.0621 CNY/request**. Both are best among the 13 compared methods. It leads in score on AutomationBench, PinchBench, BFCL V3 Base, IFBench, and GPQA Diamond. Compared with the highest-scoring average baseline, GPT 6.1 Sol, it gains 6.35 points at 94.0% lower average cost. QwenClawBench and AA-OmniScience remain within 0.43 and 0.67 percentage points of the leaders, at 95.1% and 85.3% lower costs respectively.
 
-![Six benchmark quality–cost panels.](assets/mio-public-performance.png)
+![Mio 1.0 Lite quality–cost trade-offs on six public benchmarks, from report Figure 9.](assets/mio-public-performance.png)
 
-Each benchmark contributes weight 1/9. Scores are normalized to 0–100 (MT-Bench × 10). Costs are normalized per request using each method's evaluation count, then averaged across the nine benchmarks. PinchBench and QwenClawBench use method-specific counts for some routers.
+Each benchmark contributes weight 1/9. Scores are normalized to 0–100 (MT-Bench × 10). Costs are normalized per request using each method's evaluation count, then averaged across the nine benchmarks. Mio's request cost sums the fees of the models used in collaboration. PinchBench and QwenClawBench use method-specific counts for some routers.
 
 The report's Tables 2–4 list all **117 score–cost pairs** and 13 method averages. The source conversion convention is USD 1 = CNY 7. Scores and costs are rounded independently for display; MT-Bench 9.1375 displays as 9.138.
 
-These are offline results, with benchmark outcomes informing configuration selection. Mio 1.0 Lite and the RobustRouteBench Mio selector below are evaluated separately. The [hosted Mio service](https://sinapis.ai) may evolve.
+Mio 1.0 Lite's public benchmark results and the RobustRouteBench results below are separate studies. RobustRouteBench evaluates a request-level Mio selector trained separately for each scenario; its reproduction artifacts are described in the [reproduction guide](reproducibility.md).
 
 ## Model Eval: characterizing models with less evaluation
 
