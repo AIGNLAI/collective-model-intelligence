@@ -8,9 +8,11 @@
 
 ## Mio 1.0 Lite
 
-九项公开 benchmark 等权平均 **77.15/100 分、0.0621 CNY/请求**，在 13 个比较方法中平均分最高、平均费用最低。结果对应报告中的[离线评测](docs/experimental-results.md#mio-10-lite-public-benchmarks)。
+**Mio（Models in One）** 将能力互补的模型组织起来，根据任务需求和剩余预算选择、协调模型调用。**Mio 1.0 Lite** 将这一思路用于来自中国的高性价比模型，让它们协同完成任务。
 
-![报告首页性能图：九项 benchmark 的平均得分、平均费用，以及三项任务对比。](docs/assets/mio-overview.png)
+综合九项公开基准测试（等权平均），Mio 1.0 Lite 以 **0.0621 元/请求** 的平均费用，取得 **77.15/100** 的平均得分，在 13 个对比方法中同时实现最高平均分和最低平均费用。相较平均得分最高的基线，得分提高 **6.35 分**，平均费用降低 **94.0%**。[查看完整评测结果 →](docs/experimental-results.md#mio-10-lite-public-benchmarks)
+
+![Mio 1.0 Lite：来自中国的高性价比模型协作。九项公开基准测试的平均得分、平均费用，以及三项任务对比。](docs/assets/mio-overview.png)
 
 ## 从单个模型到模型群体智能
 
